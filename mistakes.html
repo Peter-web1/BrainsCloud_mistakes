@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Статья</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 1) симантика: header, nav, article, section, aside, footer  time -->
+
+    <article class="article">
+      <div class="article-header">
+        <a
+          href="https://ecooboi.com.ua/catalog/priroda/zakaty-i-rassvety/vozdushnye-shary-na-zakate/"
+        >
+          <img
+            class="article-photo"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fecooboi.com.ua%2Ffiles%2Fcache%2Ff7%2F93%2F0f%2Fecooboi-vozdushnye-shary-na-zakate-1560774901.jpg&f=1&nofb=1"
+            alt="https://placehold.it/750x200"
+          />
+        </a>
+        <!-- для адоптации картинки добавляем класс article-photo-->
+      </div>
+      <div class="article-content">
+        <h1 class="article-title">
+          <a href="">Заголовок статьи Заголовок статьи</a>
+        </h1>
+        <div class="article-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+            eius ullam sit quaerat dignissimos incidunt facilis, excepturi
+            temporibus.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+            eius ullam sit quaerat dignissimos incidunt facilis, excepturi
+            temporibus.
+          </p>
+        </div>
+        <ul class="article-footer">
+          <li>Автор:Ш.П.А.</li>
+          <!-- 2) вместо тэга span time и +атрибут datatime в котором дата публикации -->
+          <li>
+            Дата: <time datetime="" class="article-data">21.11.2020</time>
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="article">
+      <div class="article-header">
+        <a href="https://art-vek.com/products/vozdushnye-shary/">
+          <img
+            class="article-photo"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fart-vek.com%2Ffiles%2Fproducts%2F29.1000x.png%3F1c579e9230b0981b77b2d263989a845c&f=1&nofb=1"
+            alt="https://placehold.it/750x200"
+          />
+        </a>
+        <!-- для адоптации картинки добавляем класс article-photo-->
+      </div>
+      <div class="article-content">
+        <h1 class="article-title">
+          <a href="">Заголовок статьи Заголовок статьи</a>
+        </h1>
+        <div class="article-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+            eius ullam sit quaerat dignissimos incidunt facilis, excepturi
+            temporibus.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+            eius ullam sit quaerat dignissimos incidunt facilis, excepturi
+            temporibus.
+          </p>
+        </div>
+        <ul class="article-footer">
+          <li>Автор:Ш.П.А.</li>
+          <!-- 2) вместо тэга span time и +атрибут datatime в котором дата публикации -->
+          <li>
+            Дата: <time datetime="" class="article-data">21.11.2020</time>
+          </li>
+        </ul>
+      </div>
+    </article>
+    <!-- 1) симантика: header, -->
+    <!-- 2)margin вместо padding для блоков-->
+    <!-- 3)ограничение высоты блока, фиксированная высота - ошибка -->
+    <!-- 4) Межстрочный отступ у элементов между строк большого шрифта -->
+    <!-- 5)Адаптация изображений -->
+    <!-- 6) Думаем о логике блоков и элементов  оборачивать картинки в ссылки-->
+  </body>
+</html>

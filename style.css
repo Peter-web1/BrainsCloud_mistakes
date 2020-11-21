@@ -1,0 +1,50 @@
+/* article */
+
+.article {
+  max-width: 500px;
+  /* height: 490px; - вылезет из блока*/
+  margin: 30px auto;
+
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(72, 72, 72, 0.1);
+}
+
+.article-photo {
+  display: block; /*длаем картинку блочной */
+  max-width: 100%; /*адаптация картинки */
+  height: auto; /*адаптация картинки */
+}
+
+.article-content {
+  padding: 20px;
+  /* чтобы элементы не прилипали общему блоку */
+}
+
+.article-title {
+  margin: 0 0 20px;
+
+  font-size: 35px;
+  line-height: 1.2; /* межстрочный отступ */
+}
+
+.article-title a {
+  color: inherit; /* наследует цвет текста заголовка*/
+  text-decoration: none; /*убираем подчеркивание снизу */
+}
+
+.article-title a:hover {
+  text-decoration: underline; /*при наведении подчеркивание снизу */
+}
+
+.article-text {
+  margin-bottom: 20px;
+  /* чтоб "р" наследовалось а не каждому "р" класс */
+}
+
+.article-footer {
+  margin: 0;
+  list-style: none;
+  /* у списка по умолчанию есть padding убираем его */
+  padding: 0;
+  color: #868686;
+}
